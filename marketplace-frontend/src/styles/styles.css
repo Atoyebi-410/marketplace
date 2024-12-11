@@ -1,0 +1,103 @@
+
+.bg-body-tertiary{
+    background-color: #fcb900 !important;
+}
+
+.HeroSection{
+    margin-top: 20px;
+}
+
+.HeroCard{
+    margin-top: 30px;
+}
+
+
+.heroHead{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c-btn{
+    background-color: #fcb900 !important;
+    border: none;
+    color: black !important;
+}
+
+
+.carousel{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)) !important;
+}
+
+.carouselText{
+    text-align: left;
+    margin-bottom: 20%;
+}
+
+@media (max-width: 760px) {
+    .carouselText {
+        margin-bottom: none;
+        padding-top: 20%;
+    }
+
+    .HeroCard {
+        width: fit-content;
+    }
+
+    .h-cards{
+        display: flex;
+    }
+}
+
+.Section2{
+    border: solid 1px lightgrey;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.uploadIcon{
+    margin-bottom: 20px;
+    color: #fcb900;
+    font-size: larger;
+}
+
+.section2Head{
+    font-size: 18px;
+}
+
+.col1{
+    padding: 20px;
+    border-right: solid 1px grey;
+}
+
+/* ----------------------------------- */
+
+/* General Modal Styling */
+.auth-modal-body {
+    background-color: #fcb900;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Transparent Overlay Styling */
+  .modal-backdrop.show {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Form Fields */
+  .auth-modal-body form input {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  .AuthBtn{
+    background-color: #fcb900 !important;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .auth-modal-body {
+      margin: 0 15px;
+    }
+  }
+  
